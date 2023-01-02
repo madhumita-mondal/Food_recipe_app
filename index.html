@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Recipe App</title>
+    <!-- We're going to use a meal API ===> https://www.themealdb.com/ -->
+    <!-- Font Awesome for the icons -->
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="top">
+                <span class="light-dark-mode">
+                    <i class="fa-solid fa-sun"></i>
+                </span>
+                <span class="search-container">
+                    <input class="search-input" type="text" placeholder="Search meal...">
+                    <span class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="fav-meals-container">
+                <h2>Favorite Meals</h2>
+                <div class="fav-meals">
+                    <div class="single">
+                        <div class="top">
+                            <div class="img-container">
+                                <img src="https://unsplash.it/100/100">
+                            </div>
+                            <div class="text">
+                                <p>Meal Name</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                    <div class="single">
+                        <div class="top">
+                            <div class="img-container">
+                                <img src="https://unsplash.it/99/100">
+                            </div>
+                            <div class="text">
+                                <p>Meal Name</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                    <div class="single">
+                        <div class="top">
+                            <div class="img-container">
+                                <img src="https://unsplash.it/100/99">
+                            </div>
+                            <div class="text">
+                                <p>Meal Name</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                    <div class="single">
+                        <div class="top">
+                            <div class="img-container">
+                                <img src="https://unsplash.it/98/100">
+                            </div>
+                            <div class="text">
+                                <p>Meal Name</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                    <div class="single">
+                        <div class="top">
+                            <div class="img-container">
+                                <img src="https://unsplash.it/98/99">
+                            </div>
+                            <div class="text">
+                                <p>Meal Name</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="meals-container">
+            <h2>Random Meal</h2>
+            <div class="meal">
+                <!-- <div class="meal-card">
+                    <div class="meal-card-img-container">
+                        <img src="https://unsplash.it/400/300" alt="">
+                    </div>
+                    <div class="meal-name">
+                        <p>Meal's Name</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="pop-up-container">
+        <div class="pop-up">
+            <i class="fa-solid fa-x"></i>
+            <div class="pop-up-inner">
+                <div class="left">
+                    <div class="meal-card">
+                        <div class="meal-card-img-container">
+                            <img src="https://unsplash.it/400/300" alt="">
+                        </div>
+                        <div class="meal-name">
+                            <p>Meal's Name</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div>
+                        <h2>Intructions</h2>
+                        <p class="meal-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione voluptate voluptas perspiciatis hic, repudiandae laudantium cumque numquam placeat consequatur? Saepe voluptatibus, explicabo voluptas, reprehenderit assumenda nemo aliquam ut consectetur nisi atque adipisci vel cumque nobis ullam molestias. Laudantium quidem sed doloribus id itaque laboriosam eum, officia quae nihil debitis iusto dicta praesentium alias ipsam unde! Adipisci harum illo laboriosam temporibus veritatis corrupti delectus assumenda perferendis, dolorem nobis, error, inventore non dolor. Nesciunt, incidunt quidem accusantium repellat ipsum provident tenetur? Nihil, voluptatibus dignissimos? Assumenda voluptate nesciunt eaque, dicta iure itaque! Ipsa veritatis quas velit fugit neque provident ea harum repellendus atque vero commodi, expedita itaque officiis excepturi delectus.</p>
+                    </div>
+                    <div>
+                        <h2>Ingredients / Measures</h2>
+                        <ul>
+                            <li>Some Ingredient - Measure</li>
+                            <li>Some Ingredient - Measure</li>
+                            <li>Some Ingredient - Measure</li>
+                            <li>Some Ingredient - Measure</li>
+                            <li>Some Ingredient - Measure</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
